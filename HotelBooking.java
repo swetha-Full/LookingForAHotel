@@ -102,7 +102,7 @@ else
 	}
 result=foundAHotel(amountPayableByUser,userMoney);
 if(result==true)
-	System.out.println("Hotel booked for "+days+" days in a "+userRating+" Hotel named "+bookedHotelName+" for the cost of "+amountPayableByUser);
+	System.out.println("Hotel booked for "+days+" days in a "+userRating+" Hotel named "+bookedHotelName+" for the cost of "+a.get(0));
 else
 	System.out.println("Sorry! you dont have sufficient amount to book any hotel");
 		
